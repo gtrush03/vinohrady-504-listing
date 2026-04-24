@@ -65,6 +65,11 @@ light; can get warm in summer (no A/C — a fan would help).
 
 ## Photo inventory (in `source-photos/`)
 
+The 7 originals **ARE the final deck assets** — no Gemini / Nano Banana
+upscale pipeline is part of this package. Claude Design pulls these
+JPEGs directly. No `fotos-4k/`, no `renders/`, no `engine/`.
+
+
 | # | File | Subject |
 |---|------|---------|
 | 1 | `01-facade.jpg` | Street façade of the building — ornate neoclassical, bay windows, balconies |
@@ -108,7 +113,7 @@ legible without overselling (no "luxurious", no "exclusive", no hype).
 | 2 — Neighborhood & Location | `research/03-neighborhood-map.md` | Royal Vinohrady narrative — transport, amenities, walk times to Old Town / Wenceslas Sq, parks (Riegrovy sady, Havlíčkovy sady), Manifesto Market, café culture. Pin list ready for the map render. |
 | 3 — STR / Airbnb Yield | `research/04-rental-yield.md` | Long-term yield math (4.24 % gross / 3.64 % net-rent) + STR alternative modelled on AirDNA-style Prague 2 studio benchmarks + Prague STR regulatory environment (2024 platform-registry rules, any night caps). Compare LTR vs STR scenarios. |
 | 4 — Copy + Fact Sheet + Design System | `brief/design-system.md`, `brief/fact-sheet.md`, `brief/copy.cs.md`, `brief/copy.ru.md`, `brief/copy.en.md`, `brief/claude-design-form.md` | Mirror Altajská's brief/ structure, adapted for this subject. Voice: tone of the Airbnb listing's host blurb translated into a sale-deck register — calm, Vinohrady-prestige, proof-not-hype. |
-| 5 — Image Pipeline | `engine/prompts.json`, `engine/prompts.renders.json`, plus README block | Nano-Banana prompts tailored to the 7 actual photos. `fotos-4k/` and `renders/` stay empty pending billing (project 443316313587). |
+| ~~5 — Image Pipeline~~ | — | **Removed.** Source photos go direct to Claude Design; no upscale pipeline in this repo. |
 
 ## Non-negotiables
 

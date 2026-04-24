@@ -18,9 +18,8 @@ service charges → 17 000 CZK net) ⇒ **4.24 % gross yield / 3.64 % on net ren
 2. **`brief/design-system.md`** — palette, typography, layout, voice.
 3. **`brief/fact-sheet.md`** — spec card, table-ready.
 4. **`brief/copy.cs.md` / `copy.ru.md` / `copy.en.md`** — trilingual copy.
-5. **`source-photos/`** — 7 originals (phone JPEGs, turnkey condition).
-6. **`fotos-4k/`** and **`renders/`** — empty until Nano Banana billing unblocks.
-7. **`research/`** — sourced evidence for every number in the deck.
+5. **`source-photos/`** — 7 originals (phone JPEGs, turnkey condition). **These are the final deck assets** — no upscaling pipeline in this repo.
+6. **`research/`** — sourced evidence for every number in the deck.
 
 ## Repository map
 
@@ -35,7 +34,7 @@ service charges → 17 000 CZK net) ⇒ **4.24 % gross yield / 3.64 % on net ren
 │   ├── copy.cs.md                   (Czech primary)
 │   ├── copy.ru.md                   (Russian secondary)
 │   └── copy.en.md                   (English captions)
-├── source-photos/                   7 originals
+├── source-photos/                   7 originals (final deck assets)
 │   ├── 01-facade.jpg
 │   ├── 02-entrance-hall.jpg
 │   ├── 03-stairwell-lift.jpg
@@ -43,34 +42,14 @@ service charges → 17 000 CZK net) ⇒ **4.24 % gross yield / 3.64 % on net ren
 │   ├── 05-dining-nook.jpg
 │   ├── 06-bedroom.jpg
 │   └── 07-bathroom.jpg
-├── fotos-4k/                        7 × 4K Nano Banana upscales (pending billing)
-├── renders/                         editorial renders (pending billing)
 ├── research/
 │   ├── 01-valuation-thesis.md       sourced 5.6 M CZK defense
 │   ├── 02-comparables.md            3 comps from Vinohrady studios
 │   ├── 03-neighborhood-map.md       transport + amenities + pin list
 │   ├── 04-rental-yield.md           LTR vs STR yield scenarios
 │   └── assets/                      comp screenshots + airbnb snapshot
-├── engine/
-│   ├── nano-banana-upscale.py
-│   ├── prompts.json                 7 per-photo preservation prompts
-│   ├── prompts.renders.json         editorial render prompts
-│   ├── run.sh
-│   └── .env.example
 └── .gitignore
 ```
-
-## Running the image engine
-
-```
-cd engine/
-cp .env.example .env       # paste GEMINI_API_KEY here
-./run.sh                   # processes 7 source photos + render extras
-```
-
-**Requires a paid Gemini API tier.** Free tier returns HTTP 429 on
-`generate_content` for image models. Enable billing on Google Cloud
-project `443316313587` (the same key as the Altajská package).
 
 ## Design constraints
 
