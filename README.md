@@ -4,6 +4,15 @@ Two-page A4 presentation deck for a turnkey studio in **Praha 2 —
 Královské Vinohrady**, operating as a 4.89★ Guest-favourite Airbnb
 ("Friendly apartments in Prague #504" under Artem's managed program).
 
+## 🔗 Live Airbnb reference listing
+
+**→ [www.airbnb.co.uk/rooms/1097826905142301323](https://www.airbnb.co.uk/rooms/1097826905142301323) ←**
+
+*"Friendly apartments in Prague (old town) #504"* — 4.89 / 5 · 180 reviews ·
+**Guest favourite** · host Artem (7 yrs, 6 857 total reviews).
+Full-page snapshot archived at `research/assets/airbnb-reference-listing.png`
+so the deck never depends on the live page.
+
 **Asking price: 5 600 000 CZK.**
 **Current long-term rent: 19 800 CZK/month all-in** (incl. 2 800 CZK
 service charges → 17 000 CZK net) ⇒ **4.24 % gross yield / 3.64 % on net rent.**
